@@ -65,6 +65,8 @@ body{
     font-weight: 800;
     line-height: normal;
     text-align: center;
+}
+.flo{
     margin-top: 200px;
 }
 .feat-para{
@@ -84,7 +86,7 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 0px 240px 0px;
+    /* margin: 0px 240px 0px; */
 }
 
 .flower{
@@ -165,7 +167,8 @@ body{
 
 .hot-deal{
     border-radius: 8px;
-    background: rgba(229, 84, 115, 0.05);   
+    background: rgba(229, 84, 115, 0.05); 
+    margin-bottom: 128px;  
 }
 .sale-head{
     color: #272727;
@@ -180,11 +183,13 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+    margin: 24px 0px 24px 0px;
 }
 .sale-desc{
     text-align: center;
     align-items: center;
     justify-content: center;
+    margin: 100px 200px 0px 0px;
 }
 .hot-deal{
     display: flex;
@@ -195,6 +200,17 @@ body{
     width: 318px;
     height: 420px;
 }
+/* INstagram */
+.instagram img{
+    margin: 0px 12px 0px;
+}
+.instagram{
+    margin-bottom: 128px;
+}
+
+/* Latest Deal */
+
+
 
 
 
