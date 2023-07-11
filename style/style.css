@@ -51,7 +51,12 @@ body{
 }
 
 /* Feature area */
-
+.feat{
+    display: flex;
+    flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 .feat-heading{
     color: #272727;
     text-align: center;
@@ -59,6 +64,8 @@ body{
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+    text-align: center;
+    margin-top: 200px;
 }
 .feat-para{
     color: rgba(39, 39, 39, 0.60);
@@ -67,13 +74,84 @@ body{
     font-style: normal;
     font-weight: 400;
     line-height: 30px;
+    width: 594px;
+    margin: 24px 0px 48px;
+    /* text-align: center;
+    margin-left: 700px; */
 }
 .collection{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    text-decoration: underline;
     margin: 0px 240px 0px;
+}
+
+.flower{
+    border-radius: 300px 300px 0px 0px; 
+    width: 464px;
+    height: 538px;
+    margin: 12px;
+}
+.f1{
+    width: 310px;
+    height: 428px;
+    margin: 110px 78px 0px 76px;
+}
+.fl1{
+    background-color:rgba(167, 33, 98, 0.15);
+
+}
+.f2{
+    width: 370px;
+    height: 370px;
+    margin: 117px 47px 51px;
+
+}
+.fl2{
+    background-color:rgba(5, 151, 160, 0.15);
+
+}
+
+.f3{
+    width: 314px;
+    height: 471px;
+    margin: 67px 75px 0px 75px;
+}
+.fl3{
+    background-color:rgba(71, 125, 17, 0.15);
+
+}
+.flower-desc{
+    margin: 32px 0px 128px;
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+/* Services */
+.contanar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.service{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    width: 1440px;
+    height: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.serve{
+    border: 2px solid black;
+    margin: 0px 50px 0px;
 }
 
