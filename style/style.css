@@ -210,7 +210,29 @@ body{
 
 /* Latest Deal */
 
-
+.latest-deal input{
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    margin-right: 10px;
+    padding-left: 10px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.latest-deal{
+    width: 1440px;
+    height: 449px;
+    background-image: url(../img/Rectangle\ 9.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 128px;
+}
 
 
 
